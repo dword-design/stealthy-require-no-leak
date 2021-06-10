@@ -65,6 +65,16 @@ $ yarn add stealthy-require-no-leak
 ```
 <!-- /INSTALL -->
 
+## Usage
+
+The function works exactly like [stealthy-require](https://github.com/analog-nico/stealthy-require), but with a recommended fix when requiring the same file multiple times. See the stealthy-require [readme](https://github.com/analog-nico/stealthy-require#preventing-a-memory-leak-when-repeatedly-requiring-fresh-module-instances-in-nodejs) for details.
+
+```js
+const stealthyRequire = require('stealthy-require-no-leak')
+
+const mod = stealthyRequire(require.cache, () => require('./foo'))
+```
+
 <!-- LICENSE/ -->
 ## Contribute
 
