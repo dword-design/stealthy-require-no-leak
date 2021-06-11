@@ -50,7 +50,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-
+Drop-in replacement for stealthy-require that fixes a memory leak when being called multiple times.
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->

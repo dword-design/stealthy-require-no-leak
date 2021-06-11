@@ -1,6 +1,19 @@
 {
   "name": "stealthy-require-no-leak",
   "version": "1.0.1",
+  "description": "Drop-in replacement for stealthy-require that fixes a memory leak when being called multiple times.",
+  "keywords": [
+    "nodejs",
+    "children",
+    "cache",
+    "fresh",
+    "require",
+    "import",
+    "bypass",
+    "memory-leak",
+    "nocache",
+    "stealthy-require"
+  ],
   "repository": "dword-design/stealthy-require-no-leak",
   "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
@@ -32,18 +45,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "description": "Drop-in replacement for stealthy-require that fixes a memory leak when being called multiple times.",
-  "keywords": [
-    "nodejs",
-    "children",
-    "cache",
-    "fresh",
-    "require",
-    "import",
-    "bypass",
-    "memory-leak",
-    "nocache",
-    "stealthy-require"
-  ]
+  }
 }
