@@ -32,5 +32,18 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "description": "Drop-in replacement for stealthy-require that fixes a memory leak when being called multiple times.",
+  "keywords": [
+    "nodejs",
+    "children",
+    "cache",
+    "fresh",
+    "require",
+    "import",
+    "bypass",
+    "memory-leak",
+    "nocache",
+    "stealthy-require"
+  ]
 }
