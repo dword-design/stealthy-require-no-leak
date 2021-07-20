@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/dword-design/stealthy-require-no-leak/compare/v1.0.4...v1.0.5) (2021-07-20)
+
+
+### Bug Fixes
+
+* update config files ([2afe26c](https://github.com/dword-design/stealthy-require-no-leak/commit/2afe26c6af244725fabf127bcb199cf6268cd827))
+
 ## [1.0.4](https://github.com/dword-design/stealthy-require-no-leak/compare/v1.0.3...v1.0.4) (2021-07-06)
 
 
