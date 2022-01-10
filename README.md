@@ -3,7 +3,7 @@
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
-<p>
+  <p>
     <a href="https://npmjs.org/package/stealthy-require-no-leak">
       <img
         src="https://img.shields.io/npm/v/stealthy-require-no-leak.svg"
